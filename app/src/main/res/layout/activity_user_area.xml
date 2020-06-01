@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_user_area"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginEnd="26dp"
+    android:layout_marginStart="26dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.user.kidsapplocksystem.UserAreaActivity">
+
+    <TextView
+        android:id="@+id/tvWelcomeMsg"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Welcome"
+        android:textColor="@color/colorPrimary" />
+
+
+    <Button
+        android:id="@+id/bEditProfile"
+        style="@style/Base.TextAppearance.AppCompat.Widget.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="25dp"
+        android:background="@color/colorAccent"
+        android:text="Edit Profile" />
+
+    <Button
+        android:id="@+id/bManageApps"
+        style="@style/Base.TextAppearance.AppCompat.Widget.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="25dp"
+        android:background="@color/colorAccent"
+        android:text="Manage Apps" />
+
+    <Button
+        android:id="@+id/bShownotification"
+        style="@style/Base.TextAppearance.AppCompat.Widget.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="25dp"
+        android:background="@color/colorAccent"
+        android:text="Show Notification" />
+
+    <Button
+        android:id="@+id/bLogout"
+        style="@style/Base.TextAppearance.AppCompat.Widget.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="25dp"
+        android:background="@color/colorAccent"
+        android:text="Logout" />
+
+</LinearLayout>
